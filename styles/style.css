@@ -1,0 +1,201 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+}
+
+/* h2 h3 {
+    font-family: "Bebas Neue", sans-serif;
+}
+*/
+p {
+    font-family: "Open Sans", sans-serif;
+} 
+
+/*Cero parte*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5cb00;
+    width: auto;
+    height: 4.5rem;
+}
+
+.logo {
+    margin-left: 65px;
+    height: 55px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    margin-right: 65px;
+}   
+
+.menu ul a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+}
+
+
+/*Primera parte*/
+
+.prisect {
+    padding-bottom: 230px;
+}
+
+.prisec {
+    display: flex;
+    gap: 4%;
+}
+
+.priimg {
+    margin: 6%;
+}
+
+.priimg img {
+    width: 550px;
+}
+
+.pritex {
+    margin-top: 10%;
+    width: 470px;
+}
+
+.pritex h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    line-height: 0.9;
+    margin-bottom: 30px;
+    letter-spacing: -6px;
+    word-spacing: 9px;
+}
+
+.pritex p {
+    font-size: 17.5px;
+    margin-bottom: 30px;
+}
+
+.pritex button {
+    font-family: "Open Sans", sans-serif;
+    background-color:  #f5cb00;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 35px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.pritex button:hover {
+    background-color: #e5b800;
+}
+
+
+
+/* Tercera parte */
+
+
+.segsect {
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(78, 74, 74);
+}
+
+.segsec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.segtex {
+    width: 300px;
+}
+
+.segtex h3 {
+    color: #f5cb00;
+    font-size: 40px;
+}
+
+
+/* Cuarta parte */
+
+
+.tresect {
+    background-color: #f5cb00;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trisec {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tritit h3 {
+    font-size: 48px;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.tretex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.trete {
+    color: #000;
+    line-height: 1.5;
+}
+
+.trete p {
+    margin-bottom: 20px;
+}
+
+.trete button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.trete button:hover {
+    background-color: #222;
+}
+
+.treimg {
+    display: flex;
+    justify-content: center;
+}
+
+.treimg img {
+    max-width: 100%;
+    border-radius: 4px;
+}
