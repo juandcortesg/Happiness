@@ -10,180 +10,227 @@ body {
     color: black;
 }
 
-/* h2 h3 {
+h2, h3 {
     font-family: "Bebas Neue", sans-serif;
 }
-*/
+
 p {
     font-family: "Open Sans", sans-serif;
 } 
 
+
 /*Cero parte*/
 
+
 header {
+    background-color: #f5cb00;
+    padding: 6px 4%;
+}
+
+.heade {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f5cb00;
     width: auto;
-    height: 4.5rem;
+    margin: 0 auto;
 }
 
-.logo {
-    margin-left: 65px;
-    height: 55px;
+.logo img {
+    width: 70px;
 }
 
 .menu ul {
     display: flex;
-    gap: 25px;
+    gap: 2rem;
     list-style: none;
-    align-items: center;
-    width: 100%;
-    margin-right: 65px;
-}   
+}
 
 .menu ul a {
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 20px;
     color: black;
+    transition: color 0.3s ease;
+}
+
+.menu ul a:hover {
+    color: #070707;
+    font-size: 22px;
 }
 
 
 /*Primera parte*/
 
+
 .prisect {
-    padding-bottom: 230px;
+    padding: 5.5% 0 21.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .prisec {
     display: flex;
-    gap: 4%;
+    justify-content: space-between;
+    width: 90%;
 }
 
 .priimg {
-    margin: 6%;
+    width: 47%;
 }
 
 .priimg img {
-    width: 550px;
+    width: 100%;
+    height: auto;
 }
 
 .pritex {
-    margin-top: 10%;
-    width: 470px;
+    width: 43%;
+    padding: 5% 5% 0 0;
 }
 
 .pritex h2 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 70px;
+    align-items: center;
+    font-size: 70Px;
     line-height: 0.9;
-    margin-bottom: 30px;
-    letter-spacing: -6px;
-    word-spacing: 9px;
+    margin-bottom: 7%;
+    letter-spacing: -8px;
+    word-spacing: 6px;
 }
 
 .pritex p {
-    font-size: 17.5px;
-    margin-bottom: 30px;
+    font-size: 17px;
+    margin-bottom: 2rem;
 }
 
 .pritex button {
-    font-family: "Open Sans", sans-serif;
-    background-color:  #f5cb00;
+    background-color: #f5cb00;
     border: none;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    padding: 12px 35px;
+    padding: 2% 7%;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 .pritex button:hover {
-    background-color: #e5b800;
+    background-color: #ffcc00d3;
 }
 
 
-
-/* Tercera parte */
+/* Segunda parte */
 
 
 .segsect {
     position: absolute;
-    top:10%;
+    top: 103%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(78, 74, 74);
+    transform: translateX(-50%);
+    background-color: #e6e6e6;
+    padding: 6% 2%;
+    width: 80%;
 }
 
 .segsec {
     display: flex;
     align-items: center;
-    justify-content: center;
     justify-content: space-between;
+    gap: 4%;
+    margin: 0 4% 0 5%;
 }
 
 .segtex {
-    width: 300px;
+    width: 30%;
 }
 
 .segtex h3 {
     color: #f5cb00;
     font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.segtex p {
+    color: #292929;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.segtex a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.segtex a:hover {
+    color: #e5b800;
+}
+
+.imgseg {
+    width: 50%;
+    display: flex;
+    gap: 14%;
+    justify-content: center;
+}
+
+.imgseg img {
+    width: 50%;
+    height: 50%;
 }
 
 
-/* Cuarta parte */
+/* Tercera parte */
 
 
 .tresect {
     background-color: #f5cb00;
-    padding: 60px 100px;
+    padding: 24.1% 0 8%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .trisec {
-    width: 1100px;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .tritit h3 {
-    font-size: 48px;
-    letter-spacing: 0.5px;
-    word-spacing: 5px;
-    color: #000;
-    margin-bottom: 20px;
+    width: 51%;
+    font-size: 73px;
+    line-height: 0.9;
+    letter-spacing: -6px;
+    word-spacing: 2.5px;
 }
 
 .tretex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    align-items: flex-start;
+    gap: 5%;
 }
 
 .trete {
-    color: #000;
-    line-height: 1.5;
+    width: 30%;
 }
 
 .trete p {
-    margin-bottom: 20px;
+    margin-top: 6%;
+    font-size: 16.93px;
+    margin-bottom: 10%;
 }
 
 .trete button {
     background-color: #000;
     color: #fff;
+    font-size: 14px;
     font-weight: bold;
+    padding: 4% 14%;
     border: none;
-    padding: 12px 28px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background 0.3s ease;
 }
 
 .trete button:hover {
@@ -191,11 +238,1018 @@ header {
 }
 
 .treimg {
+    width: 65%;
+}
+
+.treimg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Cuarta parte */
+
+
+.cuasect {
+    width: 100%;
+    padding: 6.5% 0 6.7% 0;
+    background-color: #f0f0f0;
+}
+
+.cuasec {
+    display: flex;
+    box-shadow: 20px 25px 25px rgba(0, 0, 0, 0.15);
+    background-color: #E6E6E6;
+    width: 85%;
+    margin: 0 auto;
+    gap: 4%;
+}
+
+.cuaimg {
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuaimg img {
+    width: 100%;
+    height: auto;
+}
+
+.cuatex {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuatex h3 {
+    width: 100%;
+    color: #f5cb00;
+    font-size: 60px;
+    letter-spacing: -5px;
+    margin-bottom: 3%;
+}
+
+.cuatex p {
+    width: 65%;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6%;
+}
+
+.cuatex button {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+
+.cuatex button:hover {
+    background-color: #222;
+}
+
+.cuatex img {
+    margin-top: 2%;
+    margin-right: 12%;
+    width: 50%;
+    height: auto;
+    align-self: flex-end;
+}
+
+
+/* Quinta parte */
+
+
+.quisect {
+    background-color: #000;
+    padding: 4.3% 0 4% 0;
+    width: 100%;
+}
+
+.quitex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quitex h3 {
+    color: #e5b800;
+    font-size: 33px;
+    letter-spacing: -3px;
+    word-spacing: 9px;
+    margin-bottom: 1%;
+}
+
+.quitex p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+    width: 42%;
+    margin-bottom: 2%;
+}
+
+.quitex img {
+    width: 65%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+.quitex button {
+    background-color: #e9c919;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    padding: 1% 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 10%;
+}
+
+.quitex button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+
+/* Sexta parte */
+
+
+.sessect {
+    width: 100%;
+    padding: 9% 0 9%;
+    background-color: #f5f5f5;
+}
+
+.sessec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    gap: 6%;
+    height: auto;
+}
+
+.sestex {
+    width: 70%;
     display: flex;
     justify-content: center;
 }
 
-.treimg img {
-    max-width: 100%;
-    border-radius: 4px;
+.sestex img {
+    width: 100%;
+    height: auto;
+}
+
+.seste {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.seste h3 {
+    font-size: 50px;
+    color: black;
+    letter-spacing: -5px;
+    word-spacing: 6px;
+}
+
+.seste p {
+    width: 90%;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 6%;
+}
+
+.seste button {
+    background-color: #f5cb00;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 3% 3%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 35%;
+}
+
+.seste button:hover {
+    background-color: #e5b800;
+    color: white;
+}
+
+
+/* Septima parte */
+
+
+.siesect {
+    width: 100%;
+    padding: 7.5% 0 7.5%;
+    background-color: #e6e6e6;
+}
+
+.siesec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.sietex {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sietex h3 {
+    font-size: 55px;
+    color: black;
+    letter-spacing: -5px;
+    margin-bottom: 4%;
+}
+
+.sietex p {
+    font-size: 19px;
+    color: #333;
+    margin-bottom: 9%;
+}
+
+.sietex button {
+    background-color: #f5cb00;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 2.5% 2.5%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 40%
+}
+
+.sietex button:hover {
+    background-color: #e5b800;
+    color: white;
+}
+
+.siete {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.siete img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Octava parte */
+
+
+.octsect {
+    width: 100%;
+    padding: 11% 0 11%;
+    background-color: #f0eded;
+}
+
+.octsec {
+    display: flex;
+    justify-content: space-between;
+    gap: 8%;
+    width: 82%;
+    margin: 0 auto;
+}
+
+.octfor {
+    width: 50%;
+    background-color: #000;
+    padding: 4.4%;
+    color: #fff;
+}
+
+.octfor form {
+    display: flex;
+    padding: 4% 0 0;
+    flex-direction: column;
+}
+
+.prifor {
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.octhij {
+    width: 50%;
+}
+
+.octhij input{
+    width: 100%;
+    padding: 3% 0 3%;
+    font-size: 16px;
+    border: 1.5px solid white;
+    background-color: #000;
+    margin-bottom: 1%;
+}
+
+.prifor label,
+.sugfor label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.sugfor input {
+    width: 100%;
+    padding: 2% 0 2%;
+    font-size: 16px;
+    border: 1.5px solid white;
+    background-color: #000;
+    margin-bottom: 1%;
+}
+
+.sugfor textarea {
+    width: 100%;
+    padding: 6% 0 6%;
+    font-size: 16px;
+    border: 1.5px solid white;
+    background-color: #000;
+    margin-bottom: 4%;
+}
+
+.sugfor {
+    display: flex;
+    flex-direction: column;
+}
+
+.sugfor p {
+    font-size: 12.5px;
+    color: #ccc;
+}
+
+.octtex {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.octtex h3 {
+    width: 85%;
+    font-size: 45px;
+    color: #f6d120;
+    letter-spacing: -4px;
+    word-spacing: 6px;
+    margin-bottom: 3%;
+}
+
+.octtex p {
+    width: 100%;
+    font-size: 21px;
+    color: #333;
+    margin-bottom: 10%;
+}
+
+.octtex button {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 45%;
+}
+
+.octtex button:hover {
+    background-color: #f6d120;
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Novena parte */
+
+
+.novsect {
+    width: 100%;
+    background-color: #f5cb00;
+    padding: 4% 0 4%;
+}
+
+.novsec {
+    width: 81%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novsec h3 {
+    font-size: 35px;
+    color: black;
+    letter-spacing: -3px;
+    word-spacing: 6px;
+    margin-bottom: 18px;
+}
+
+.novsec p {
+    font-size: 20px;
+    color: #292929;
+    margin-bottom: 30px;
+}
+
+.novsec img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.novsec button {
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 1.1% 3.8%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.novsec button:hover {
+    background-color: #222;
+}
+
+
+/* Decima parte */
+
+
+.decsect {
+    width: 100%;
+    background-color: #000;
+    padding: 5% 0 5%;
+    color: #f5cb00;
+}
+
+.decsec {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.declogo img {
+    width: 8%;
+    height: auto;
+    margin-bottom: 9%;
+}
+
+.decphijo {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin-bottom: 8.5%;
+}
+
+.decphij {
+    list-style: none;
+}
+
+.decphij li {
+    margin-bottom: 1px;
+}
+
+.decphij a {
+    color: #f5cb00;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.decphij a:hover {
+    color: #fff;
+}
+
+.decshijo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fff;
+    padding: 5% 0 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.deccopy p {
+    font-size: 17px;
+    color: #f5cb00;
+}
+
+.decshij a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    transition: transform 0.3s ease;
+}
+
+.decshij a img:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width: 1279px) {
+    .pritex h2 {
+        font-size: 60px;
+    }
+
+    .pritex p {
+        font-size: 14px;
+    }
+
+
+    .segsect {
+        top: 90%;
+    }
+
+    .segtex h3 {
+        font-size: 30px;
+    }
+
+    .segtex p {
+        font-size: 15px;
+    }
+
+
+    .tritit h3 {
+        width: 60%;
+        font-size: 55px;
+    }
+
+    .trete p {
+        font-size: 15px;
+    }
+
+
+    .cuatex h3 {
+        font-size: 50px;
+    }
+
+    .cuatex p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .cuatex button {
+        padding: 3%;
+        width: 30%;
+    };
+
+    .cuatex img {
+        width: 30%;
+    }
+
+    .quitex p {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .quitex button {
+        width: 15%;
+    }
+
+
+    .seste h3 {
+        font-size: 50px;
+    }
+
+    .seste p {
+        font-size: 15px;
+    }
+
+    .seste button {
+        font-size: 16px;
+        width: 45%;
+    }
+
+    .sietex h3 {
+        font-size: 45px;
+    }
+
+    .sietex p {
+        font-size: 15px;
+    }
+
+
+    .octtex h3 {
+        font-size: 40px;
+    }
+
+    .octtex p {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .pritex h2 {
+        font-size: 50px;
+    }
+
+
+    .segsect {
+        top: 75%;
+    }
+
+    .segtex h3 {
+        font-size: 25px;
+    }
+
+    .segtex p {
+        font-size: 12px;
+    }
+
+
+    .tritit h3 {
+        font-size: 50px;
+    }
+
+    .trete p {
+        font-size: 13px;
+    }
+
+
+    .cuatex h3 {
+        font-size: 40px;
+    }
+
+    .cuatex p {
+        font-size: 15px;
+    }
+
+    .cuatex button {
+        width: 40%;
+        font-size: 14px;
+    }
+
+    .cuatex img {
+        width: 40%;
+    }
+
+
+    .seste h3 {
+        font-size: 40px;
+    }
+
+    .seste p {
+        font-size: 12px;
+    }
+
+
+    .sietex h3 {
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+
+    .sietex p {
+        font-size: 12px;
+    }
+
+    .sietex button {
+        font-size: 15px;
+    }
+
+
+    .sugfor p {
+        font-size: 10px;
+    }
+
+    .octtex h3 {
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+
+    .octtex p {
+        font-size: 13px;
+    }
+
+    .octtex button {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .heade {
+        flex-direction: column;
+    }
+
+
+    .prisec {
+        flex-direction: column-reverse;
+    }
+
+
+    .priimg {
+        width: 100%;
+    }
+
+    .priimg img {
+        width: 70%;
+    }
+
+    .pritex {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+
+    .segsect {
+        top: 112%;
+    }
+
+    .segtex {
+        width: 55%;
+    }
+
+    .segtex h3 {
+        font-size: 20px;
+    }
+
+    .segtex p {
+        font-size: 11px;
+    }
+
+    .segtex a {
+        font-size: 12px;
+    }
+
+    .imgseg {
+        width: 40%;
+        flex-wrap: wrap;
+    }
+
+    .imgseg img {
+        margin-right: 10px;
+    }
+
+
+    .tritit {
+        width: 100%;
+    }
+
+    .tritit h3 {
+        font-size: 35px;
+        letter-spacing: -2px;
+    }
+
+
+    .tretex {
+        flex-direction: column;
+    }
+
+    .trete {
+        width: 90%;
+    }
+
+    .trete button {
+        font-size: 13px;
+        padding: 2% 3%;
+        width: 30%;
+        margin-bottom: 4%;
+    }
+
+
+    .cuasec {
+        flex-direction: column-reverse;
+    }
+
+    .cuaimg {
+        width: 80%;
+    }
+
+    .cuatex {
+        width: 90%;
+    }
+
+    .cuatex p {
+        font-size: 12px;
+    }
+
+    .cuatex button {
+        width: 30%;
+        padding: 2% 3%;
+        font-size: 12px;
+    }
+
+    .cuatex img {
+        width: 30%;
+    }
+
+
+    .quitex h3 {
+        font-size: 30px;
+    }
+
+    .quitex p {
+        width: 70%;
+        font-size: 11px;
+    }
+
+    .quitex button {
+        width: 20%;
+        font-size: 14px;
+    }
+
+
+    .sessec {
+        flex-direction: column-reverse;
+    }
+
+    .seste {
+        width: 90%;
+    }
+
+    .seste p {
+        margin-bottom: 10px;
+    }
+
+    .seste button {
+        padding: 2% 3%;
+        width: 30%;
+        margin-bottom: 5%;
+    }
+
+
+    .siesec {
+        flex-direction: column;
+    }
+
+    .sietex {
+        width: 80%;
+    }
+
+    .sietex button {
+        width: 30%;
+        margin-bottom: 5%;
+    }
+
+
+    .octsec {
+        flex-direction: column-reverse;
+    }
+
+    .octfor {
+        width: 100%;
+    }
+
+    .octtex {
+        width: 90%;
+    }
+
+    .octtex p {
+        margin-bottom: 4%;
+    }
+
+    .octtex button {
+        margin-bottom: 6%;
+        width: 30%;
+    }
+
+
+    .novsec h3 {
+        font-size: 30px;
+    }
+
+    .novsec p {
+        font-size: 15px;
+    }
+
+    .novsec button {
+        font-size: 17px;
+        font-weight: 100;
+    }
+
+
+    .declogo img{
+        width: 20%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu  ul li a {
+        font-size: 15px;
+    }
+
+
+    .pritex h2 {
+        letter-spacing: -2px;
+        font-size: 40px;
+    }
+
+    .pritex p {
+        font-size: 11px;
+        margin-bottom: 7%;
+    }
+
+
+    .segsect {
+        top: 88%;
+    }
+
+    .segtex h3 {
+        font-size: 15px;
+    }
+
+    .segtex p {
+        font-size: 7px;
+    }
+
+    .segtex a {
+        font-size: 8px;
+    }
+
+    .imgseg {
+        width: 30%;
+    }
+
+
+    .tritit h3 {
+        width: 70%;
+        font-size: 26px;
+    }
+
+    .trete p {
+        font-size: 12px;
+    }
+
+
+    .quitex p {
+        font-size: 10px;
+    }
+
+    .quitex button {
+        font-size: 13px;
+    }
+
+    .seste h3 {
+        font-size: 40px;
+        letter-spacing: -2px;
+    }
+
+    .seste button {
+        font-size: 12px;
+    }
+
+
+    .sietex button {
+        font-size: 11px;
+    }
+
+
+    .octtex h3 {
+        width: 100%;
+        font-size:  22px;
+    }
+
+    .octtex p {
+        font-size:  12px;
+    }
+
+    .octtex button {
+        padding: 1% 3%;
+    }
+
+
+    .decphij li a {
+        font-size: 13px;
+    }
+
+    .deccopy p {
+        font-size: 13px;
+    }
+
+    .decshij a img {
+        width: 15px;
+        height: 15px;
+    }
 }

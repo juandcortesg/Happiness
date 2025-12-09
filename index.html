@@ -10,17 +10,19 @@
 <body>
 
     <header>
-        <nav class="logo">
-            <img src="assets/img/logo.png" alt="Logo">
-        </nav>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Happiness</a></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="heade">
+            <nav class="logo">
+                <img src="assets/img/logo.png" alt="Logo">
+            </nav>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Happiness</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
@@ -45,6 +47,7 @@
                 <h3>HAPPINESS <br>
                     IN NUMBERS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                <a href="#">Read More ></a>
             </div>
             <div class="imgseg">
                 <img src="assets/img/graph01.png" alt="Porcentaje torta">
@@ -63,7 +66,7 @@
                 <div class="trete">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel</p>
-                <button>Read More</button>
+                    <button>Read More</button>
                 </div>
                 <div class="treimg">
                     <img src="assets/img/img02.png" alt="Animo">
@@ -74,14 +77,16 @@
 
 
     <section class="cuasect">
-        <div class="cuaimg">
-            <img src="assets/img/img03.png" alt="Apoyo">
-        </div>
-        <div class="cuatex">
-            <h3>% HAPPINESS</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas</p>
-            <button>Read More</button>
-            <img src="assets/img/graph01.png" alt="Porcentaje torta">
+        <div class="cuasec">
+            <div class="cuaimg">
+                <img src="assets/img/img03.png" alt="Apoyo">
+            </div>
+            <div class="cuatex">
+                <h3>% HAPPINESS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas</p>
+                <button>Read More</button>
+                <img src="assets/img/graph01.png" alt="Porcentaje torta">
+            </div>
         </div>
     </section>
 
@@ -90,35 +95,120 @@
         <div class="quitex">
             <h3>ABOUT US</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-            <img src="image3.jpg" alt="Team working">
+            <img src="assets/img/img04.png" alt="Team working">
             <button>Read More</button>
         </div>
     </section>
 
 
-    <section class="sessect">
-        <div class="sestex">
-            <img src="assets/img/img04.png" alt="Indicación">
-        </div>
-        <div class="sestex">
-            <h3>OUR TEAM</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
-            <button>Read more</button>
-        </div>
-    </section>
+        <section class="sessect">
+            <div class="sessec">
+                <div class="sestex">
+                    <img src="assets/img/img05.png" alt="Indicación">
+                </div>
+                <div class="seste">
+                    <h3>OUR TEAM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                    <button>Read more</button>
+                </div>
+            </div>
+        </section>
 
 
     <section class="siesect">
-        <div class="sietex">
-            <h3>TRY OUR METHOD FOR FREE</h3>
-            <p>HOW HAPPY ARE YOU?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-            <button>Read more</button>
-        </div>
-        <div class="sietex">
-            <img src="assets/img/img06.png" alt="Indicación">
+        <div class="siesec">
+            <div class="sietex">
+                <h3>TRY OUR METHOD FOR FREE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                <button>Read more</button>
+            </div>
+            <div class="siete">
+                <img src="assets/img/img06.png" alt="Indicación">
+            </div>
         </div>
     </section>
+
+
+    <section class="octsect">
+        <div class="octsec">
+            <div class="octfor">
+                <form>
+                    <div class="prifor">
+                        <div class="octhij">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" required>
+                        </div>
+                        <div class="octhij">
+                            <label for="surname">Surname</label>
+                            <input type="text" name="surname" required>
+                        </div>
+                    </div>
+                    <div class="sugfor">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="4"></textarea>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                    </div>
+                </form>
+            </div>
+            <div class="octtex">
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="novsect">
+        <div class="novsec">
+            <h3>CONTACT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <img src="assets/img/map.png" alt="Ubicación en el mapa">
+            <button>Contact</button>
+        </div>
+    </section>
+
+
+    <footer class="decsect">
+        <div class="decsec">
+            <div class="declogo">
+                <img src="assets/img/logoWhite.png" alt="Cara Feliz">
+            </div>
+            <div class="decphijo">
+                <ul class="decphij">
+                    <li><a href="#">Happiness</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="decphij">
+                    <li><a href="#">Policy Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="decshijo">
+                <div class="deccopy">
+                    <p>Copyright | YourName</p>
+                </div>
+                <div class="decshij">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/Instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/Facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/Twitter.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html> 
